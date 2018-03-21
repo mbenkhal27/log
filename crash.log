@@ -1,490 +1,490 @@
-2018/03/20 14:01:48 [INFO] Terraform version: 0.11.4  7878d66b386e5474102b5047722c2de2b3237278
-2018/03/20 14:01:48 [INFO] Go runtime version: go1.10
-2018/03/20 14:01:48 [INFO] CLI args: []string{"/Applications/terraform/terraform", "plan"}
-2018/03/20 14:01:48 [DEBUG] Attempting to open CLI config file: /Users/mbenkhal/.terraformrc
-2018/03/20 14:01:48 Loading CLI configuration from /Users/mbenkhal/.terraformrc
-2018/03/20 14:01:48 [INFO] CLI command args: []string{"plan"}
-2018/03/20 14:01:48 [INFO] command: empty terraform config, returning nil
-2018/03/20 14:01:48 [DEBUG] command: no data state file found for backend config
-2018/03/20 14:01:48 [DEBUG] New state was assigned lineage "a11864c3-4c84-a9a5-7ec4-60193595e539"
-2018/03/20 14:01:48 [INFO] command: backend initialized: <nil>
-2018/03/20 14:01:48 [DEBUG] checking for provider in "."
-2018/03/20 14:01:48 [DEBUG] checking for provider in "/Applications/terraform"
-2018/03/20 14:01:48 [DEBUG] checking for provider in ".terraform/plugins/darwin_amd64"
-2018/03/20 14:01:48 [DEBUG] found plugin override in .terraformrc: "vra7", "/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7"
-2018/03/20 14:01:48 [DEBUG] found valid plugin: "vra7", "0.0.0", "/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7"
-2018/03/20 14:01:48 [DEBUG] checking for provisioner in "."
-2018/03/20 14:01:48 [DEBUG] checking for provisioner in "/Applications/terraform"
-2018/03/20 14:01:48 [DEBUG] checking for provisioner in ".terraform/plugins/darwin_amd64"
-2018/03/20 14:01:48 [INFO] command: backend <nil> is not enhanced, wrapping in local
-2018/03/20 14:01:48 [INFO] backend/local: starting Plan operation
-2018/03/20 14:01:48 [DEBUG] New state was assigned lineage "b5bdb9ec-d52a-d3fe-ee64-529cfcac3add"
-2018/03/20 14:01:49 [INFO] terraform: building graph: GraphTypeInput
-2018/03/20 14:01:49 [TRACE] ConfigTransformer: Starting for path: []
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ConfigTransformer:
+2018/03/20 19:46:49 [INFO] Terraform version: 0.11.4  7878d66b386e5474102b5047722c2de2b3237278
+2018/03/20 19:46:49 [INFO] Go runtime version: go1.10
+2018/03/20 19:46:49 [INFO] CLI args: []string{"/Applications/terraform/terraform", "plan"}
+2018/03/20 19:46:49 [DEBUG] Attempting to open CLI config file: /Users/mbenkhal/.terraformrc
+2018/03/20 19:46:49 Loading CLI configuration from /Users/mbenkhal/.terraformrc
+2018/03/20 19:46:49 [INFO] CLI command args: []string{"plan"}
+2018/03/20 19:46:49 [INFO] command: empty terraform config, returning nil
+2018/03/20 19:46:49 [DEBUG] command: no data state file found for backend config
+2018/03/20 19:46:49 [DEBUG] New state was assigned lineage "f7d5481b-6c0a-8515-dba4-631a3d6011b0"
+2018/03/20 19:46:49 [INFO] command: backend initialized: <nil>
+2018/03/20 19:46:49 [DEBUG] checking for provider in "."
+2018/03/20 19:46:49 [DEBUG] checking for provider in "/Applications/terraform"
+2018/03/20 19:46:49 [DEBUG] checking for provider in ".terraform/plugins/darwin_amd64"
+2018/03/20 19:46:49 [DEBUG] found plugin override in .terraformrc: "vra7", "/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7"
+2018/03/20 19:46:49 [DEBUG] found valid plugin: "vra7", "0.0.0", "/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7"
+2018/03/20 19:46:49 [DEBUG] checking for provisioner in "."
+2018/03/20 19:46:49 [DEBUG] checking for provisioner in "/Applications/terraform"
+2018/03/20 19:46:49 [DEBUG] checking for provisioner in ".terraform/plugins/darwin_amd64"
+2018/03/20 19:46:49 [INFO] command: backend <nil> is not enhanced, wrapping in local
+2018/03/20 19:46:49 [INFO] backend/local: starting Plan operation
+2018/03/20 19:46:49 [DEBUG] New state was assigned lineage "27dce7c2-5c9a-fd56-7cbc-bae708c139d0"
+2018/03/20 19:46:49 [INFO] terraform: building graph: GraphTypeInput
+2018/03/20 19:46:49 [TRACE] ConfigTransformer: Starting for path: []
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ConfigTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.LocalTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.LocalTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.OutputTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.OutputTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.OrphanResourceTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.OrphanResourceTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.OrphanOutputTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.OrphanOutputTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] AttachResourceConfigTransformer: Beginning...
-2018/03/20 14:01:49 [TRACE] AttachResourceConfigTransformer: Attach resource config request: vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] Attaching resource config: &config.Resource{Mode:0, Name:"RHEL_6_Full_Support_nonAA", Type:"vra7_resource", RawCount:(*config.RawConfig)(0xc4203b4930), RawConfig:(*config.RawConfig)(0xc4203b48c0), Provisioners:[]*config.Provisioner(nil), Provider:"", DependsOn:[]string(nil), Lifecycle:config.ResourceLifecycle{CreateBeforeDestroy:false, PreventDestroy:false, IgnoreChanges:[]string(nil)}}
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.AttachResourceConfigTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] AttachResourceConfigTransformer: Beginning...
+2018/03/20 19:46:49 [TRACE] AttachResourceConfigTransformer: Attach resource config request: vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] Attaching resource config: &config.Resource{Mode:0, Name:"RHEL_6_Full_Support", Type:"vra7_resource", RawCount:(*config.RawConfig)(0xc420416930), RawConfig:(*config.RawConfig)(0xc4204168c0), Provisioners:[]*config.Provisioner(nil), Provider:"", DependsOn:[]string(nil), Lifecycle:config.ResourceLifecycle{CreateBeforeDestroy:false, PreventDestroy:false, IgnoreChanges:[]string(nil)}}
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.AttachResourceConfigTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [DEBUG] Resource state not found for "vra7_resource.RHEL_6_Full_Support_nonAA": vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.AttachStateTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [DEBUG] Resource state not found for "vra7_resource.RHEL_6_Full_Support": vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.AttachStateTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.RootVariableTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.RootVariableTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] ProviderConfigTransformer: Starting for path: []
-2018/03/20 14:01:49 [TRACE] Attach provider request: []string{} vra7
-2018/03/20 14:01:49 [TRACE] Attaching provider config: *config.ProviderConfig{Name:"vra7", Alias:"", Version:"", RawConfig:(*config.RawConfig)(0xc4203b4850)}
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ProviderConfigTransformer:
-
-provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] ProviderConfigTransformer: Starting for path: []
+2018/03/20 19:46:49 [TRACE] Attach provider request: []string{} vra7
+2018/03/20 19:46:49 [TRACE] Attaching provider config: *config.ProviderConfig{Name:"vra7", Alias:"", Version:"", RawConfig:(*config.RawConfig)(0xc420416850)}
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ProviderConfigTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-2018/03/20 14:01:49 [DEBUG] resource vra7_resource.RHEL_6_Full_Support_nonAA using provider provider.vra7
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ProviderTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.MissingProviderTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+2018/03/20 19:46:49 [DEBUG] resource vra7_resource.RHEL_6_Full_Support using provider provider.vra7
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vra7 - *terraform.NodeApplyableProvider
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.PruneProviderTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ParentProviderTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ParentProviderTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.graphTransformerMulti:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.graphTransformerMulti:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ModuleVariableTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ModuleVariableTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.RemovedModuleTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.RemovedModuleTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [DEBUG] ReferenceTransformer: "provider.vra7" references: []
-2018/03/20 14:01:49 [DEBUG] ReferenceTransformer: "vra7_resource.RHEL_6_Full_Support_nonAA" references: []
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ReferenceTransformer:
+2018/03/20 19:46:49 [DEBUG] ReferenceTransformer: "vra7_resource.RHEL_6_Full_Support" references: []
+2018/03/20 19:46:49 [DEBUG] ReferenceTransformer: "provider.vra7" references: []
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ReferenceTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.CountBoundaryTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.CountBoundaryTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.TargetsTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.TargetsTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.CloseProviderTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.RootTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.RootTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 root - terraform.graphNodeRoot
   meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 (close) - *terraform.graphNodeCloseProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
 root - terraform.graphNodeRoot
   meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 (close) - *terraform.graphNodeCloseProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeAbstractResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeAbstractResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [DEBUG] Starting graph walk: walkInput
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "meta.count-boundary (count boundary fixup)"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "provider.vra7 (close)"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "root"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "provider.vra7"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "vra7_resource.RHEL_6_Full_Support_nonAA" waiting on "provider.vra7"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "meta.count-boundary (count boundary fixup)" waiting on "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "provider.vra7 (close)" waiting on "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "root" waiting on "meta.count-boundary (count boundary fixup)"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "root" waiting on "provider.vra7 (close)"
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "vra7_resource.RHEL_6_Full_Support_nonAA", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "meta.count-boundary (count boundary fixup)", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "provider.vra7 (close)", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "root", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "provider.vra7"
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7': walking
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7': evaluating
-2018/03/20 14:01:49 [TRACE] [walkInput] Entering eval tree: provider.vra7
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalSequence
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalInitProvider
-2018-03-20T14:01:49.010-0500 [DEBUG] plugin: starting plugin: path=/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7 args=[/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7]
-2018-03-20T14:01:49.014-0500 [DEBUG] plugin: waiting for RPC address: path=/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7
-2018-03-20T14:01:49.028-0500 [DEBUG] plugin.terraform-provider-vra7: plugin address: timestamp=2018-03-20T14:01:49.027-0500 address=/var/folders/8n/3lfhs75x5s5_dhn7sm_nqh652mfdt3/T/plugin759992852 network=unix
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalOpFilter
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalSequence
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalGetProvider
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalInterpolateProvider
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalBuildProviderConfig
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalInputProvider
-2018/03/20 14:01:49 [TRACE] root: eval: terraform.EvalNoop
-2018/03/20 14:01:49 [TRACE] root: eval: terraform.EvalNoop
-2018/03/20 14:01:49 [TRACE] root: eval: terraform.EvalNoop
-2018/03/20 14:01:49 [TRACE] [walkInput] Exiting eval tree: provider.vra7
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support_nonAA': walking
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "provider.vra7 (close)"
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7 (close)': walking
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7 (close)': evaluating
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "meta.count-boundary (count boundary fixup)"
-2018/03/20 14:01:49 [TRACE] [walkInput] Entering eval tree: provider.vra7 (close)
-2018/03/20 14:01:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': walking
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalCloseProvider
-2018/03/20 14:01:49 [TRACE] [walkInput] Exiting eval tree: provider.vra7 (close)
-2018/03/20 14:01:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': evaluating
-2018/03/20 14:01:49 [TRACE] [walkInput] Entering eval tree: meta.count-boundary (count boundary fixup)
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalCountFixZeroOneBoundaryGlobal
-2018/03/20 14:01:49 [TRACE] [walkInput] Exiting eval tree: meta.count-boundary (count boundary fixup)
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "root"
-2018/03/20 14:01:49 [TRACE] vertex 'root.root': walking
-2018/03/20 14:01:49 [INFO] terraform: building graph: GraphTypeValidate
-2018/03/20 14:01:49 [TRACE] ConfigTransformer: Starting for path: []
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ConfigTransformer:
+2018/03/20 19:46:49 [DEBUG] Starting graph walk: walkInput
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "provider.vra7"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "meta.count-boundary (count boundary fixup)"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "provider.vra7 (close)"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "root"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "vra7_resource.RHEL_6_Full_Support" waiting on "provider.vra7"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "meta.count-boundary (count boundary fixup)" waiting on "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "provider.vra7 (close)" waiting on "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "root" waiting on "meta.count-boundary (count boundary fixup)"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "root" waiting on "provider.vra7 (close)"
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "vra7_resource.RHEL_6_Full_Support", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "meta.count-boundary (count boundary fixup)", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "provider.vra7 (close)", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "root", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "provider.vra7"
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7': walking
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7': evaluating
+2018/03/20 19:46:49 [TRACE] [walkInput] Entering eval tree: provider.vra7
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalSequence
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalInitProvider
+2018-03-20T19:46:49.852-0500 [DEBUG] plugin: starting plugin: path=/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7 args=[/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7]
+2018-03-20T19:46:49.857-0500 [DEBUG] plugin: waiting for RPC address: path=/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7
+2018-03-20T19:46:49.869-0500 [DEBUG] plugin.terraform-provider-vra7: plugin address: timestamp=2018-03-20T19:46:49.869-0500 address=/var/folders/8n/3lfhs75x5s5_dhn7sm_nqh652mfdt3/T/plugin479272291 network=unix
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalOpFilter
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalSequence
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalGetProvider
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalInterpolateProvider
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalBuildProviderConfig
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalInputProvider
+2018/03/20 19:46:49 [TRACE] root: eval: terraform.EvalNoop
+2018/03/20 19:46:49 [TRACE] root: eval: terraform.EvalNoop
+2018/03/20 19:46:49 [TRACE] root: eval: terraform.EvalNoop
+2018/03/20 19:46:49 [TRACE] [walkInput] Exiting eval tree: provider.vra7
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support': walking
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "meta.count-boundary (count boundary fixup)"
+2018/03/20 19:46:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': walking
+2018/03/20 19:46:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': evaluating
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "provider.vra7 (close)"
+2018/03/20 19:46:49 [TRACE] [walkInput] Entering eval tree: meta.count-boundary (count boundary fixup)
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7 (close)': walking
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalCountFixZeroOneBoundaryGlobal
+2018/03/20 19:46:49 [TRACE] [walkInput] Exiting eval tree: meta.count-boundary (count boundary fixup)
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7 (close)': evaluating
+2018/03/20 19:46:49 [TRACE] [walkInput] Entering eval tree: provider.vra7 (close)
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalCloseProvider
+2018/03/20 19:46:49 [TRACE] [walkInput] Exiting eval tree: provider.vra7 (close)
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "root"
+2018/03/20 19:46:49 [TRACE] vertex 'root.root': walking
+2018/03/20 19:46:49 [INFO] terraform: building graph: GraphTypeValidate
+2018/03/20 19:46:49 [TRACE] ConfigTransformer: Starting for path: []
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ConfigTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.LocalTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.LocalTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.OutputTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.OutputTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.OrphanResourceTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.OrphanResourceTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.OrphanOutputTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.OrphanOutputTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] AttachResourceConfigTransformer: Beginning...
-2018/03/20 14:01:49 [TRACE] AttachResourceConfigTransformer: Attach resource config request: vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] Attaching resource config: &config.Resource{Mode:0, Name:"RHEL_6_Full_Support_nonAA", Type:"vra7_resource", RawCount:(*config.RawConfig)(0xc4203b4930), RawConfig:(*config.RawConfig)(0xc4203b48c0), Provisioners:[]*config.Provisioner(nil), Provider:"", DependsOn:[]string(nil), Lifecycle:config.ResourceLifecycle{CreateBeforeDestroy:false, PreventDestroy:false, IgnoreChanges:[]string(nil)}}
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.AttachResourceConfigTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] AttachResourceConfigTransformer: Beginning...
+2018/03/20 19:46:49 [TRACE] AttachResourceConfigTransformer: Attach resource config request: vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] Attaching resource config: &config.Resource{Mode:0, Name:"RHEL_6_Full_Support", Type:"vra7_resource", RawCount:(*config.RawConfig)(0xc420416930), RawConfig:(*config.RawConfig)(0xc4204168c0), Provisioners:[]*config.Provisioner(nil), Provider:"", DependsOn:[]string(nil), Lifecycle:config.ResourceLifecycle{CreateBeforeDestroy:false, PreventDestroy:false, IgnoreChanges:[]string(nil)}}
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.AttachResourceConfigTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [DEBUG] Resource state not found for "vra7_resource.RHEL_6_Full_Support_nonAA": vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.AttachStateTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [DEBUG] Resource state not found for "vra7_resource.RHEL_6_Full_Support": vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.AttachStateTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.RootVariableTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.RootVariableTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] ProviderConfigTransformer: Starting for path: []
-2018/03/20 14:01:49 [TRACE] Attach provider request: []string{} vra7
-2018/03/20 14:01:49 [TRACE] Attaching provider config: *config.ProviderConfig{Name:"vra7", Alias:"", Version:"", RawConfig:(*config.RawConfig)(0xc4203b4850)}
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ProviderConfigTransformer:
-
-provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.MissingProviderTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] ProviderConfigTransformer: Starting for path: []
+2018/03/20 19:46:49 [TRACE] Attach provider request: []string{} vra7
+2018/03/20 19:46:49 [TRACE] Attaching provider config: *config.ProviderConfig{Name:"vra7", Alias:"", Version:"", RawConfig:(*config.RawConfig)(0xc420416850)}
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ProviderConfigTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-2018/03/20 14:01:49 [DEBUG] resource vra7_resource.RHEL_6_Full_Support_nonAA using provider provider.vra7
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ProviderTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.MissingProviderTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+2018/03/20 19:46:49 [DEBUG] resource vra7_resource.RHEL_6_Full_Support using provider provider.vra7
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ProviderTransformer:
+
+provider.vra7 - *terraform.NodeApplyableProvider
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.PruneProviderTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.PruneProviderTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ParentProviderTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ParentProviderTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.graphTransformerMulti:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.graphTransformerMulti:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.MissingProvisionerTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ProvisionerTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ProvisionerTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.graphTransformerMulti:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.graphTransformerMulti:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ModuleVariableTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ModuleVariableTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.RemovedModuleTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.RemovedModuleTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [DEBUG] ReferenceTransformer: "vra7_resource.RHEL_6_Full_Support_nonAA" references: []
-2018/03/20 14:01:49 [DEBUG] ReferenceTransformer: "provider.vra7" references: []
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ReferenceTransformer:
+2018/03/20 19:46:49 [DEBUG] ReferenceTransformer: "vra7_resource.RHEL_6_Full_Support" references: []
+2018/03/20 19:46:49 [DEBUG] ReferenceTransformer: "provider.vra7" references: []
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ReferenceTransformer:
 
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.CountBoundaryTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.CountBoundaryTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.TargetsTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.TargetsTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 provider.vra7 - *terraform.NodeApplyableProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.CloseProviderTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.CloseProviderTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.CloseProvisionerTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.RootTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.RootTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
   provider.vra7 - *terraform.NodeApplyableProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 root - terraform.graphNodeRoot
   meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 (close) - *terraform.graphNodeCloseProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.TransitiveReductionTransformer:
 
 meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 provider.vra7 - *terraform.NodeApplyableProvider
 provider.vra7 (close) - *terraform.graphNodeCloseProvider
-  vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+  vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
 root - terraform.graphNodeRoot
   meta.count-boundary (count boundary fixup) - *terraform.NodeCountBoundary
   provider.vra7 (close) - *terraform.graphNodeCloseProvider
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResource
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResource
   provider.vra7 - *terraform.NodeApplyableProvider
-2018/03/20 14:01:49 [DEBUG] Starting graph walk: walkValidate
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "provider.vra7"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "meta.count-boundary (count boundary fixup)"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "provider.vra7 (close)"
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "root"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "root" waiting on "meta.count-boundary (count boundary fixup)"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "root" waiting on "provider.vra7 (close)"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "vra7_resource.RHEL_6_Full_Support_nonAA" waiting on "provider.vra7"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "meta.count-boundary (count boundary fixup)" waiting on "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] dag/walk: added edge: "provider.vra7 (close)" waiting on "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "root", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "vra7_resource.RHEL_6_Full_Support_nonAA", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "meta.count-boundary (count boundary fixup)", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: dependencies changed for "provider.vra7 (close)", sending new deps
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "provider.vra7"
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7': walking
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7': evaluating
-2018/03/20 14:01:49 [TRACE] [walkValidate] Entering eval tree: provider.vra7
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalSequence
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalInitProvider
-2018/03/20 14:01:49 [TRACE] root: eval: terraform.EvalNoop
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalOpFilter
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalSequence
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalGetProvider
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalInterpolateProvider
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalBuildProviderConfig
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalValidateProvider
-2018/03/20 14:01:49 [TRACE] root: eval: terraform.EvalNoop
-2018/03/20 14:01:49 [TRACE] root: eval: terraform.EvalNoop
-2018/03/20 14:01:49 [TRACE] [walkValidate] Exiting eval tree: provider.vra7
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support_nonAA': walking
-2018/03/20 14:01:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support_nonAA': evaluating
-2018/03/20 14:01:49 [TRACE] [walkValidate] Entering eval tree: vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalSequence
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalInterpolate
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalIf
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalValidateCount
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalCountFixZeroOneBoundary
-2018/03/20 14:01:49 [TRACE] [walkValidate] Exiting eval tree: vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support_nonAA': expanding/walking dynamic subgraph
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ResourceCountTransformer:
+2018/03/20 19:46:49 [DEBUG] Starting graph walk: walkValidate
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "provider.vra7"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "meta.count-boundary (count boundary fixup)"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "provider.vra7 (close)"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "root"
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "vra7_resource.RHEL_6_Full_Support" waiting on "provider.vra7"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "meta.count-boundary (count boundary fixup)" waiting on "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "provider.vra7 (close)" waiting on "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "root" waiting on "provider.vra7 (close)"
+2018/03/20 19:46:49 [TRACE] dag/walk: added edge: "root" waiting on "meta.count-boundary (count boundary fixup)"
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "vra7_resource.RHEL_6_Full_Support", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "meta.count-boundary (count boundary fixup)", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "provider.vra7 (close)", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: dependencies changed for "root", sending new deps
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "provider.vra7"
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7': walking
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7': evaluating
+2018/03/20 19:46:49 [TRACE] [walkValidate] Entering eval tree: provider.vra7
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalSequence
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalInitProvider
+2018/03/20 19:46:49 [TRACE] root: eval: terraform.EvalNoop
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalOpFilter
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalSequence
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalGetProvider
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalInterpolateProvider
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalBuildProviderConfig
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalValidateProvider
+2018/03/20 19:46:49 [TRACE] root: eval: terraform.EvalNoop
+2018/03/20 19:46:49 [TRACE] root: eval: terraform.EvalNoop
+2018/03/20 19:46:49 [TRACE] [walkValidate] Exiting eval tree: provider.vra7
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support': walking
+2018/03/20 19:46:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support': evaluating
+2018/03/20 19:46:49 [TRACE] [walkValidate] Entering eval tree: vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalSequence
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalInterpolate
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalIf
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalValidateCount
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalCountFixZeroOneBoundary
+2018/03/20 19:46:49 [TRACE] [walkValidate] Exiting eval tree: vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support': expanding/walking dynamic subgraph
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ResourceCountTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResourceInstance
-2018/03/20 14:01:49 [DEBUG] Resource state not found for "vra7_resource.RHEL_6_Full_Support_nonAA": vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.AttachStateTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResourceInstance
+2018/03/20 19:46:49 [DEBUG] Resource state not found for "vra7_resource.RHEL_6_Full_Support": vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.AttachStateTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResourceInstance
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.TargetsTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResourceInstance
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.TargetsTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResourceInstance
-2018/03/20 14:01:49 [DEBUG] ReferenceTransformer: "vra7_resource.RHEL_6_Full_Support_nonAA" references: []
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.ReferenceTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResourceInstance
+2018/03/20 19:46:49 [DEBUG] ReferenceTransformer: "vra7_resource.RHEL_6_Full_Support" references: []
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.ReferenceTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResourceInstance
-2018/03/20 14:01:49 [TRACE] Graph after step *terraform.RootTransformer:
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResourceInstance
+2018/03/20 19:46:49 [TRACE] Graph after step *terraform.RootTransformer:
 
-vra7_resource.RHEL_6_Full_Support_nonAA - *terraform.NodeValidatableResourceInstance
-2018/03/20 14:01:49 [TRACE] dag/walk: added new vertex: "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "vra7_resource.RHEL_6_Full_Support_nonAA"
-2018/03/20 14:01:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support_nonAA': walking
-2018/03/20 14:01:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support_nonAA': evaluating
-2018/03/20 14:01:49 [TRACE] [walkValidate] Entering eval tree: vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalSequence
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalValidateResourceSelfRef
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalGetProvider
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalInterpolate
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalValidateResource
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: panic: Unknown validation type: 6
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: goroutine 36 [running]:
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.validateMapValues(0x19fea2b, 0x16, 0xc42037e1e0, 0xc4203a00f0, 0xc42037e1e0, 0xc4203c6058, 0x195, 0xc42036cef0, 0x2329dc0, 0x0)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1450 +0xc87
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validateMap(0xc420396c30, 0x19fea2b, 0x16, 0x1882000, 0xc420370380, 0xc4203a00f0, 0xc42037e090, 0x97, 0x0, 0xc42038c12b, ...)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1402 +0x265
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validateType(0xc420396c30, 0x19fea2b, 0x16, 0x1882000, 0xc420370380, 0xc4203a00f0, 0xc42037e090, 0x0, 0x0, 0x0, ...)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1601 +0x65f
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validate(0xc420396c30, 0x19fea2b, 0x16, 0xc4203a00f0, 0xc42037e090, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1260 +0x20a
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validateObject(0xc420396c30, 0x0, 0x0, 0xc420396c30, 0xc42037e090, 0xc42036c600, 0x100fe44, 0x1985380, 0x192fba0, 0xc42036c600, ...)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1498 +0x1bf
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.Validate(0xc420396c30, 0xc42037e090, 0x192fba0, 0xc42036c600, 0x1985380, 0xc42037e2a0, 0x1985380, 0x100d6f2)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:607 +0x50
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.(*Resource).Validate(0xc420279b20, 0xc42037e090, 0xc42038c110, 0xd, 0xc420347b58, 0x1, 0x0, 0x0)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/resource.go:270 +0x50
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.(*Provider).ValidateResource(0xc420279b90, 0xc42038c110, 0xd, 0xc42037e090, 0xc420071d28, 0xc420376b28, 0x1012397, 0xc42037e2d0, 0x30, 0x28)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/provider.go:240 +0x1d3
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/plugin.(*ResourceProviderServer).ValidateResource(0xc420311460, 0xc420370120, 0xc42037e240, 0x0, 0x0)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/plugin/resource_provider.go:502 +0x6e
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: reflect.Value.call(0xc420071ce0, 0xc42000eff8, 0x13, 0x19eea87, 0x4, 0xc420376f20, 0x3, 0x3, 0xc4203576d8, 0x103bbcf, ...)
-2018-03-20T14:01:49.037-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/reflect/value.go:434 +0x905
-2018-03-20T14:01:49.038-0500 [DEBUG] plugin.terraform-provider-vra7: reflect.Value.Call(0xc420071ce0, 0xc42000eff8, 0x13, 0xc420357720, 0x3, 0x3, 0x0, 0x0, 0x0)
-2018-03-20T14:01:49.038-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/reflect/value.go:302 +0xa4
-2018-03-20T14:01:49.038-0500 [DEBUG] plugin.terraform-provider-vra7: net/rpc.(*service).call(0xc42039e0c0, 0xc420081540, 0xc42027d5b8, 0xc42012da00, 0xc420311a20, 0x1864120, 0xc420370120, 0x16, 0x1864160, 0xc42037e240, ...)
-2018-03-20T14:01:49.038-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/net/rpc/server.go:381 +0x142
-2018-03-20T14:01:49.038-0500 [DEBUG] plugin.terraform-provider-vra7: created by net/rpc.(*Server).ServeCodec
-2018-03-20T14:01:49.038-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/net/rpc/server.go:475 +0x36b
-2018/03/20 14:01:49 [ERROR] root: eval: *terraform.EvalValidateResource, err: Warnings: []. Errors: [unexpected EOF]
-2018/03/20 14:01:49 [ERROR] root: eval: *terraform.EvalSequence, err: Warnings: []. Errors: [unexpected EOF]
-2018/03/20 14:01:49 [TRACE] [walkValidate] Exiting eval tree: vra7_resource.RHEL_6_Full_Support_nonAA
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "provider.vra7 (close)"
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7 (close)': walking
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "meta.count-boundary (count boundary fixup)"
-2018/03/20 14:01:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': walking
-2018/03/20 14:01:49 [TRACE] vertex 'root.provider.vra7 (close)': evaluating
-2018/03/20 14:01:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': evaluating
-2018/03/20 14:01:49 [TRACE] [walkValidate] Entering eval tree: provider.vra7 (close)
-2018/03/20 14:01:49 [TRACE] [walkValidate] Entering eval tree: meta.count-boundary (count boundary fixup)
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalCloseProvider
-2018/03/20 14:01:49 [TRACE] root: eval: *terraform.EvalCountFixZeroOneBoundaryGlobal
-2018/03/20 14:01:49 [TRACE] [walkValidate] Exiting eval tree: provider.vra7 (close)
-2018/03/20 14:01:49 [TRACE] [walkValidate] Exiting eval tree: meta.count-boundary (count boundary fixup)
-2018/03/20 14:01:49 [TRACE] dag/walk: walking "root"
-2018/03/20 14:01:49 [TRACE] vertex 'root.root': walking
-2018-03-20T14:01:49.039-0500 [DEBUG] plugin: plugin process exited: path=/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7
-2018/03/20 14:01:49 [DEBUG] plugin: waiting for all plugin processes to complete...
-2018-03-20T14:01:49.040-0500 [WARN ] plugin: error closing client during Kill: err="connection is shut down"
+vra7_resource.RHEL_6_Full_Support - *terraform.NodeValidatableResourceInstance
+2018/03/20 19:46:49 [TRACE] dag/walk: added new vertex: "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "vra7_resource.RHEL_6_Full_Support"
+2018/03/20 19:46:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support': walking
+2018/03/20 19:46:49 [TRACE] vertex 'root.vra7_resource.RHEL_6_Full_Support': evaluating
+2018/03/20 19:46:49 [TRACE] [walkValidate] Entering eval tree: vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalSequence
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalValidateResourceSelfRef
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalGetProvider
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalInterpolate
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalValidateResource
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: panic: Unknown validation type: 6
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: goroutine 30 [running]:
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.validateMapValues(0x19fea2b, 0x16, 0xc4203b0510, 0xc420381e00, 0xc4203b0510, 0xc4202ee780, 0x195, 0xc4203f01f0, 0x2365238, 0x0)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1450 +0xc87
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validateMap(0xc4203b02a0, 0x19fea2b, 0x16, 0x1882000, 0xc4202f1920, 0xc420381e00, 0xc4203b0390, 0x97, 0x0, 0xc4202e896b, ...)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1402 +0x265
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validateType(0xc4203b02a0, 0x19fea2b, 0x16, 0x1882000, 0xc4202f1920, 0xc420381e00, 0xc4203b0390, 0x0, 0x0, 0x0, ...)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1601 +0x65f
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validate(0xc4203b02a0, 0x19fea2b, 0x16, 0xc420381e00, 0xc4203b0390, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1260 +0x20a
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.validateObject(0xc4203b02a0, 0x0, 0x0, 0xc4203b02a0, 0xc4203b0390, 0xc4202eb840, 0x100fe44, 0x1985380, 0x192fba0, 0xc4202eb840, ...)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:1498 +0x1bf
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.schemaMap.Validate(0xc4203b02a0, 0xc4203b0390, 0x192fba0, 0xc4202eb840, 0x1985380, 0xc4203b05d0, 0x1985380, 0x100d6f2)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/schema.go:607 +0x50
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.(*Resource).Validate(0xc42037b180, 0xc4203b0390, 0xc4202e8950, 0xd, 0xc4202ffdc8, 0xc420064d01, 0x0, 0x0)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/resource.go:270 +0x50
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/helper/schema.(*Provider).ValidateResource(0xc42037b1f0, 0xc4202e8950, 0xd, 0xc4203b0390, 0xc42030cf48, 0xc420365b28, 0x1012397, 0xc4203b0600, 0x30, 0x28)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/helper/schema/provider.go:240 +0x1d3
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: github.com/hashicorp/terraform/plugin.(*ResourceProviderServer).ValidateResource(0xc4202f1620, 0xc4202f16a0, 0xc4203b0570, 0x0, 0x0)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/Users/mbenkhal/TerraformPluginProject/src/github.com/hashicorp/terraform/plugin/resource_provider.go:502 +0x6e
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: reflect.Value.call(0xc42030cf00, 0xc4203b8070, 0x13, 0x19eea87, 0x4, 0xc420365f20, 0x3, 0x3, 0x0, 0x0, ...)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/reflect/value.go:434 +0x905
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: reflect.Value.Call(0xc42030cf00, 0xc4203b8070, 0x13, 0xc42002ff20, 0x3, 0x3, 0x0, 0x0, 0x0)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/reflect/value.go:302 +0xa4
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: net/rpc.(*service).call(0xc420368340, 0xc4203b6000, 0xc42038a080, 0xc4203ba700, 0xc42036e6a0, 0x1864120, 0xc4202f16a0, 0x16, 0x1864160, 0xc4203b0570, ...)
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/net/rpc/server.go:381 +0x142
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: created by net/rpc.(*Server).ServeCodec
+2018-03-20T19:46:49.879-0500 [DEBUG] plugin.terraform-provider-vra7: 	/usr/local/go/src/net/rpc/server.go:475 +0x36b
+2018/03/20 19:46:49 [ERROR] root: eval: *terraform.EvalValidateResource, err: Warnings: []. Errors: [unexpected EOF]
+2018/03/20 19:46:49 [ERROR] root: eval: *terraform.EvalSequence, err: Warnings: []. Errors: [unexpected EOF]
+2018/03/20 19:46:49 [TRACE] [walkValidate] Exiting eval tree: vra7_resource.RHEL_6_Full_Support
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "meta.count-boundary (count boundary fixup)"
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "provider.vra7 (close)"
+2018/03/20 19:46:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': walking
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7 (close)': walking
+2018/03/20 19:46:49 [TRACE] vertex 'root.meta.count-boundary (count boundary fixup)': evaluating
+2018/03/20 19:46:49 [TRACE] vertex 'root.provider.vra7 (close)': evaluating
+2018/03/20 19:46:49 [TRACE] [walkValidate] Entering eval tree: provider.vra7 (close)
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalCloseProvider
+2018/03/20 19:46:49 [TRACE] [walkValidate] Exiting eval tree: provider.vra7 (close)
+2018/03/20 19:46:49 [TRACE] [walkValidate] Entering eval tree: meta.count-boundary (count boundary fixup)
+2018/03/20 19:46:49 [TRACE] root: eval: *terraform.EvalCountFixZeroOneBoundaryGlobal
+2018/03/20 19:46:49 [TRACE] [walkValidate] Exiting eval tree: meta.count-boundary (count boundary fixup)
+2018/03/20 19:46:49 [TRACE] dag/walk: walking "root"
+2018/03/20 19:46:49 [TRACE] vertex 'root.root': walking
+2018-03-20T19:46:49.881-0500 [DEBUG] plugin: plugin process exited: path=/Users/mbenkhal/TerraformPluginProject/bin/terraform-provider-vra7
+2018/03/20 19:46:49 [DEBUG] plugin: waiting for all plugin processes to complete...
+2018-03-20T19:46:49.881-0500 [WARN ] plugin: error closing client during Kill: err="connection is shut down"
